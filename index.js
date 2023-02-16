@@ -1,5 +1,29 @@
 /* Your Code Here */
 
+//const exampleArray=['Sarah',"Whalley","Student",20]
+
+class Employee
+{
+    constructor(array)
+    {
+        this.firstName=array[0];
+        this.familyName=array[1];
+        this.title=array[2];
+        this.payPerHour=array[3];
+        this.timeInEvents=[];
+        this.timeOutEvents=[];
+    }
+}   
+
+function createEmployeeRecord(array)
+{
+    return new Employee(array)
+}
+    
+
+
+
+
 /*
  We're giving you this function. Take a look at it, you might see some usage
  that's new and different. That's because we're avoiding a well-known, but
